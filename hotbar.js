@@ -1,5 +1,5 @@
-var inco_list = document.getElementById("inco_moblie");
-var menu_list = document.getElementById("menu");
+const inco_list = document.getElementById("inco_moblie");
+const menu_list = document.getElementById("nave");
 
 
 inco_list.addEventListener("click", function() {
