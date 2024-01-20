@@ -138,7 +138,6 @@ body{
 }
 
 
-
 /*telas menor que 600 px */
 
 @media screen and (max-width: 500px){
@@ -227,18 +226,15 @@ body{
 
 
 
-
-
-
-
 main section{
-    height: 100vh ;
+    
     width: 100vw;
     overflow-x: hidden;
 
 }
 
 main .main{
+    height: 100vh;
     background-image: linear-gradient(70deg, #000000 20%, rgba(12, 12, 10, 0) 60%),url(/assents/Background/background.jpg); 
     background-size: cover;
     background-position: center center;
@@ -412,25 +408,122 @@ main .main span{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 main .resume{
-    background-color: #00ff00;
+    /* background: #0C0C0A linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(12,12,10,1) 10%); */
+    background: red linear-gradient(140deg, rgb(0, 0, 0) 20%, rgb(12, 10, 10) 60%); 
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+    grid-template-rows: 0fr 1fr;
+    grid-template-areas: "sobre fig" "skil skil";
+    overflow-x: hidden;
+    
+
+    /* background: #0C0C0A linear-gradient(90deg, #000000 20%, rgba(12, 12, 10, 0) 60%); */
+
 }
+.resume .sobre{
+    
+    padding-top: 11.49vh;   
+    padding-left: 11.49vh;   
+    grid-area: sobre;
+
+}
+.resume h1{
+    margin-top: 0px;
+    margin-bottom: 5vh;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.resume .sobre p{
+  
+    width: 46vw;
+    color: #FFF;
+    font-family: "Anonymous Pro";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.resume .skil{
+  
+   grid-area: skil;
+   padding-left: 11.49vh;  
+   padding-right: 11.49vh;  
+   display: flex;
+   flex-direction: column;
+}
+.resume .programer{
+    margin: 0;
+    
+    grid-area: fig;
+    max-height: 30.32vw;
+    display: flex;
+    padding-top: 11.49vh;
+    padding-right: 11.49vh;
+    justify-content: center;
+    align-items: center;
+}
+.resume .programer img{
+    height: 30.32vw;
+    width: 30.32vw;
+    border-radius: 100%;
+}
+.resume .skil h1{
+    margin-bottom: 2.72vh;
+}
+.resume .skil span{
+ 
+    width: 80vw;
+    display: grid;
+    gap:14px;
+    grid-template-columns: repeat(auto-fill , 95px);
+    
+}
+.resume .skil span div{
+    height: 95px;
+    width:  95px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid #8257E6;
+    background: #1A1A1A;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    
+}
+.resume .skil span div h3{
+    text-align: center;
+    margin: 0px;
+    margin-top: 10px;
+    color: #8257E6;
+    font-family: "DM Sans";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+}
+.resume .skil figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+}
+.resume .skil img{
+    width: 42%;
+}
+
+
+
+
 main .projetos{
+
     background-color: #ff3c00;
 }
 
