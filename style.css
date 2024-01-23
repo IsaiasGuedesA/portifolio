@@ -1,20 +1,7 @@
 body{
     margin: 0px;
-    /* background-color: #0C0C0A; */
-
-    /* background-image: linear-gradient(180deg, #0C0C0A 18.75%, rgba(12, 12, 10, 0.00) 100%),url(/assents/Background/background.jpg); */
-    /* 
-    
-    
-    background-size: cover;
-    
-    background-repeat: no-repeat;
-    background-position: center top; */
     width: 100vw;
     height: 100vh;
-    /* -webkit-background-size:cover;
-    -moz-background-size:cover;
-    -moz-background-size:cover ; */
     overflow-x: hidden;
     
     
@@ -26,12 +13,9 @@ body{
     z-index: 100;
     width: 100vw;
     height: 57px;
-    /* background: #0C0C0A; */
+   
     background: #000000;
 
-    /* -webkit-box-shadow: 0px 1px 53px 40px rgba(12,12,10,1);
-    -moz-box-shadow: 0px 1px 53px 40px rgba(12,12,10,1);
-    box-shadow: 0px 1px 53px 40px rgba(12,12,10,1); */
 
     -webkit-box-shadow: 0px 1px 53px 40px rgb(0, 0, 0);
     -moz-box-shadow: 0px 1px 53px 40px rgb(0, 0, 0);
@@ -138,7 +122,7 @@ body{
 }
 
 
-/*telas menor que 600 px */
+
 
 @media screen and (max-width: 500px){
 
@@ -320,8 +304,7 @@ main .main span{
 }
 
 .main header .sub_title span img{
-    /* height: 30px;
-    width: 30px; */
+
     height: clamp(20px, 3.75vw ,30px);
     width: clamp(20px, 3.75vw ,30px);
     opacity: 0.3;
@@ -345,8 +328,7 @@ main .main span{
     position: absolute;
     top:85%;
 
-    /* justify-content: center;
-    align-items: center; */
+
 }
 .main header .sub_title span{
     height: 58px;
@@ -410,9 +392,9 @@ main .main span{
 
 
 main .resume{
-    /* background: #0C0C0A linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(12,12,10,1) 10%); */
+
     background: red linear-gradient(150deg, rgb(0, 0, 0) 10%, #0C0C0A 30%);  
-    /* background-color: #0C0C0A; */
+
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 0fr 0fr;
@@ -420,10 +402,7 @@ main .resume{
     overflow-x: hidden;
     position: relative;
     padding-bottom: 10vh;
-    /* min-height: 110vh; */
-    
-
-    /* background: #0C0C0A linear-gradient(90deg, #000000 20%, rgba(12, 12, 10, 0) 60%); */
+   
 
 }
 .resume .sobre{
@@ -470,10 +449,7 @@ main .resume{
     max-height: 30.32vw;
     display: flex;
     right: 11.49vh;
-    top: 11.49vh
-    /* padding-top: 11.49vh;
-    padding-right: 11.49vh; */
-  
+    top: 11.49vh;
 }
 .resume .programer img{
     height: min(28vw , 300px);
@@ -490,7 +466,7 @@ main .resume{
     width: 90vw; 
     gap:14px;
     grid-template-columns: repeat(auto-fill, 100px);
-    /* grid-template-rows: repeat(auto-fill, 105px); */
+
     grid-auto-rows: 100px; 
     
 }
@@ -631,7 +607,7 @@ main .projetos{
     font-weight: 400;
     line-height: normal;
     margin: 0;
-    /* padding-top: 12vh; */
+
     padding-left: 6.06vw;
 }
 
@@ -645,7 +621,7 @@ main .projetos{
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     transition: width 1s , height 1s;
 
-    /*===============*/
+
 }
 .projetos span div img{
     height: 100%;
@@ -673,7 +649,7 @@ main .projetos{
 .projetos span div:not(.bt, .blur):hover{
     width: 320px;
     height: 220px;
-    /*===============*/
+
     
 }
 
@@ -706,7 +682,7 @@ main .projetos{
     z-index: 1;
     opacity: 0;
     transition: opacity 0.5s;
-    /*===============*/
+
 }
 .projetos span .info h3{
     color: #FFF;
@@ -743,9 +719,9 @@ main .projetos{
 
 .projetos span div:not(.bt, .blur):hover .info{
     
-    /* transform: translate(0, 100%) ; */
+
     opacity: 1;
-    /*===============*/
+
     
 }
 
@@ -768,16 +744,14 @@ main .projetos{
 
     .projetos span div:not(.bt, .blur):hover{
         width: 300px;
-        height: 200px;
-        /*===============*/
-        
+        height: 200px;        
     }
 
     .projetos span div:not(.bt,.blur){
         width: 280px;
         height: 175px;
     
-        /*===============*/
+
     }
 
     .projetos span div .blur h2{
@@ -804,15 +778,13 @@ main .projetos{
     .projetos span div:not(.bt, .blur):hover{
         width: 280px;
         height: 180px;
-        /*===============*/
+
         
     }
 
     .projetos span div:not(.bt,.blur){
         width: 260px;
         height: 155px;
-    
-        /*===============*/
     }
 
     .projetos span div .blur h2{
