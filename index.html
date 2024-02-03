@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,14 +9,17 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Anton&family=Audiowide&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;1,9..40,400;1,9..40,500&family=Inter:wght@400;500;600&family=Poppins:ital,wght@0,100;0,200;0,400;0,500;1,100;1,300;1,400;1,500&family=Roboto&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Anton&family=Audiowide&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;1,9..40,400;1,9..40,500&family=Inter:wght@400;500;600&family=Poppins:ital,wght@0,100;0,200;0,400;0,500;1,100;1,300;1,400;1,500&family=Roboto&display=swap"
+        rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
 
     <script src="/script.js"></script>
 </head>
+
 <body>
-    <header class="hotbar"> 
+    <header class="hotbar">
         <nav id="nave">
             <div class="menu_inco_moblie" id="inco_moblie">
                 <span>
@@ -23,91 +27,154 @@
                     <div class="line2"></div>
                     <div class="line3"></div>
                 </span>
-                
+
             </div>
             <div class="menu" id="menu">
                 <ul>
-                    <li><h2>Home</h2></li>
-                    <li><h2>Sobre</h2></li>
-                    <li><h2>Projetos</h2></li>
-                    <li><h2>Contato</h2></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#resume">Sobre</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#contato">Contato</a></li>
                 </ul>
             </div>
             <section class="bt_curiculo_contanier">
                 <div class="bt_curiculo">
-                    <h2>Curiculo</h2>
+                    <a href="/assents/Isaias Guedes Curiculo.pdf" download>Curiculo</a>
                 </div>
             </section>
         </nav>
     </header>
     <main>
-        <section class="main">
+        <section class="main" id="home">
             <header>
                 <div>
                     <h1>Isaias Guedes</h1>
                     <div class="sub_title">
                         <p>DESENVOLVEDOR &lt;/&gt;</p>
                         <span>
-                            <img src="/assents/inco/redes/github.svg">
-                            <img src="/assents/inco/redes/linkd.svg">
-                            <img src="/assents/inco/redes/email.svg">
+                            <a href="https://github.com/IsaiasGuedesA">
+                                <img src="/assents/inco/redes/github.svg">
+                            </a>
+                            <a href="https://www.linkedin.com/in/isaias-a-26a6161b4">
+                                <img src="/assents/inco/redes/linkd.svg">
+
+                            </a>
+                            <a href="mailto:isaiasguedesdearaujo30@gmail.com">
+                                <img src="/assents/inco/redes/email.svg">
+
+                            </a>
                         </span>
                     </div>
                 </div>
             </header>
             <span class="bin">
                 <h2>
-                    01001001 01110011 01100001 01101001 01100001 01110011 <br> 00100000 01000111 01110101 01100101 01100100 01100101 01110011
+                    01001001 01110011 01100001 01101001 01100001 01110011 <br> 00100000 01000111 01110101 01100101
+                    01100100 01100101 01110011
                 </h2>
             </span>
         </section>
-        <section class="resume">
+        <section class="resume" id="resume">
             <span class="sobre">
                 <h1>
                     Sobre
                 </h1>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, itaque maxime! Aspernatur facilis, error magnam, praesentium quia et fugit inventore aliquid ad quas officiis, consectetur iste quasi enim accusantium architecto.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, itaque maxime! Aspernatur facilis, error magnam, praesentium quia et fugit inventore aliquid ad quas officiis, consectetur iste quasi enim accusantium architecto.
+                    Olá! Me chamo Isaias Guedes De Araujo,
+                    sou um entusiasta da tecnologia e estudante de Engenharia de Controle e Automação no IFG.Busco
+                    constantemente aprender novas tecnologias para ampliar meu conhecimento.
+                    Minha visão de futuro inclui desempenhar um papel fundamental na integração de sistemas inteligentes
+                    e no avanço da automação.
+                    Estou animado para explorar novas oportunidades e contribuir para o progresso tecnológico.
+
                 </p>
             </span>
             <figure class="programer">
-                 <img src="/assents/programer.jpg" alt=""> 
+                <img src="/assents/programer.jpg" alt="">
             </figure>
             <div class="skil">
-                 <h1>
+                <h1>
                     Habilidades
                 </h1>
                 <span>
-                    <div class="breve">
+                    <div>
                         <h3>Python</h3>
-                        <figure><img src="/assents/inco/skils/python.png" alt=""></figure>
+                        <figure><img
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
+                        </figure>
                     </div>
                     <div>
                         <h3>c++</h3>
-                        <figure><img src="/assents/inco/skils/c++.png" alt=""></figure>
-                    </div>  
+                        <figure><img src="https://i.im.ge/2024/02/03/bfLbZ1.c.png"></figure>
+                    </div>
                     <div>
                         <h3>Html</h3>
-                        <figure><img src="/assents/inco/skils/html.png" alt=""></figure>
-                    </div> 
-                    <div>
-                        <h3>Python</h3>
-                        <figure><img src="/assents/inco/skils/python.png" alt=""></figure>
+                        <figure>
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+                        </figure>
                     </div>
                     <div>
-                        <h3>c++</h3>
-                        <figure><img src="/assents/inco/skils/c++.png" alt=""></figure>
-                    </div>  
+                        <h3>css</h3>
+                        <figure>
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+                        </figure>
+                    </div>
+                    <div>
+                        <h3>JavaScript</h3>
+                        <figure>
+                            <img
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                        </figure>
+                    </div>
+                    <div>
+                        <h3>PostgreSQL</h3>
+                        <figure>
+                            <img
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" />
+                        </figure>
+                    </div>
+                    <div>
+                        <h3>SQLite</h3>
+                        <figure>
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" />
+                        </figure>
+                    </div>
+                    <div>
+                        <h3>Flask</h3>
+                        <figure>
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" />
+                        </figure>
+                    </div>
+                    <div>
+                        <h3>Arduino</h3>
+                        <figure>
+                            <img
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg" />
+                        </figure>
+                    </div>
+                    <div>
+                        <h3>Figma</h3>
+                        <figure>
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" />
+                        </figure>
+                    </div>
+                    <div>
+                        <h3>Git</h3>
+                        <figure>
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
+                        </figure>
+                    </div>
                     <div class="breve">
-                        <h3>Figman</h3>
-                        <figure><img src="/assents/inco/skils/figma.png" alt=""></figure>
+                        <h3>ReactNative</h3>
+                        <figure>
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+                        </figure>
                     </div>
-                       
+
                 </span>
             </div>
         </section>
-        <section class="projetos">
+        <section class="projetos" id="projetos">
             <h1>Projetos</h1>
             <span class="grid">
                 <div>
@@ -115,7 +182,7 @@
                     <div class="blur">
                         <h2>Portifolio</h2>
                     </div>
-                       
+
                     <span class="info">
                         <h3> data ou nome</h3>
                         <div class="bt">
@@ -128,7 +195,7 @@
                     <div class="blur">
                         <h2>Portifolio</h2>
                     </div>
-                       
+
                     <span class="info">
                         <h3> data ou nome</h3>
                         <div class="bt">
@@ -141,7 +208,7 @@
                     <div class="blur">
                         <h2>Portifolio</h2>
                     </div>
-                       
+
                     <span class="info">
                         <h3> data ou nome</h3>
                         <div class="bt">
@@ -154,7 +221,7 @@
                     <div class="blur">
                         <h2>Portifolio</h2>
                     </div>
-                       
+
                     <span class="info">
                         <h3> data ou nome</h3>
                         <div class="bt">
@@ -162,32 +229,43 @@
                         </div>
                     </span>
                 </div>
-                
+
             </span>
         </section>
-        <section class="contato">
+        <section class="contato" id="contato">
             <h1>
                 CONTATOS
             </h1>
             <span>
                 <div>
-                    <figure>
-                        <img src="/assents/inco/redes/github.svg">
-                    </figure>
+                    <a href="https://github.com/IsaiasGuedesA">
+                        <figure>
+                            <img src="/assents/inco/redes/github.svg">
+                        </figure>
+                    </a>
                     <h2>GitHub</h2>
-                    <h3>@name_tag</h3>
+                    <h3>@IsaiasGuedesA</h3>
                 </div>
                 <div>
-                    <figure>
-                        <img src="/assents/inco/redes/linkd.svg">
-                    </figure>
+                    <a href="https://www.linkedin.com/in/isaias-a-26a6161b4">
+                        <figure>
+                            <img src="/assents/inco/redes/linkd.svg">
+                        </figure>
+                    </a>
+
                     <h2>LinkedIn</h2>
-                    <h3>@name_tag</h3>
+                    <h3>@Isaias Araujo</h3>
                 </div>
                 <div>
-                    <figure>
-                        <img src="/assents/inco/redes/email.svg">
-                    </figure>
+                    <a href="mailto:isaiasguedesdearaujo30@gmail.com">
+
+                        <figure>
+
+                            <img src="/assents/inco/redes/email.svg">
+
+                        </figure>
+                    </a>
+
                     <h2>Email</h2>
                     <h3>Isaiasguedesdearaujo30@gmail.com</h3>
                 </div>
@@ -195,10 +273,10 @@
         </section>
     </main>
     <footer>
-        
         <h6> &copy; 2024 create by Isaias Araujo</h6>
     </footer>
 
 </body>
 <script src="hotbar.js"></script>
+
 </html>

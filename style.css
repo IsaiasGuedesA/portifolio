@@ -6,7 +6,9 @@ body{
     
     
 }
-
+*{
+    scroll-behavior: smooth;
+}
 .hotbar{
     position: fixed;
     top: 0; 
@@ -71,7 +73,7 @@ body{
 
 }
 
-.hotbar h2{
+.hotbar a{
     color: #FFF;
     font-family: Inter;
     font-size: 18px;
@@ -79,11 +81,15 @@ body{
     font-weight: 500;
     line-height: normal;
     cursor: pointer;
+    text-decoration: none;
+    transition: color 0.5s;
 
 }
-.hotbar ul h2:hover{
+.hotbar ul a:hover {
     color:#8257E6;
 }
+
+
 .hotbar .bt_curiculo{
     border-radius: 15px;
     border: 1px solid #8257E6;
