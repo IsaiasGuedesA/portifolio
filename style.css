@@ -597,12 +597,13 @@ main .resume{
 
 
 main .projetos{
-   
+   padding-top: 15vh;
     background: #0C0C0A;
     display: flex;
     flex-direction: column;
     padding-bottom: 10vh;
     gap: 2.72vh;
+    min-height: 100vh;
    
 }
 .projetos h1{
@@ -809,6 +810,7 @@ main .projetos{
     align-items: center;
     justify-content: center;
     padding-bottom: 20vh;
+    min-height: 70vh;
 }
 .contato h1{
     color: #D9D9D9;
